@@ -5,7 +5,7 @@ Agent-based annotation of sparse autoencoder latents over protein language model
 An agent is given one SAE latent, pulls its top-activating sequence windows, looks
 the proteins up in UniProt / InterPro / Pfam / Reactome through
 [ToolUniverse](https://github.com/mims-harvard/ToolUniverse), and returns a
-structured, cited annotation — including what would falsify it.
+structured, cited annotation , including what would falsify it.
 
 ## Run it
 
@@ -65,6 +65,4 @@ Everything downstream is unchanged.
 
 ## Notes
 
-Design rationale and research planning live in [`notes/`](notes/README.md) — start
-with [agent foundations](notes/01-agent-foundations.md) if you have not built an
-agent before.
+Design rationale and research planning live in [`notes/`](notes/README.md).
